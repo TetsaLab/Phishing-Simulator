@@ -86,3 +86,11 @@ Windows 11 VM
 8. Documented Results
     -  Recorded configuration steps, screenshots, and campaign results.
     -  Documented lessons learned and troubleshooting performed throughout the project.
+  
+## Key Outcomes
+-  Successfully deployed a fully functional phishing simulation environment.
+-  Configured a working SMTP relay using Mailpit for secure local email testing.
+-  Developed custom HTML phishing emails and landing pages.
+-  Executed phishing simulation campaigns using imported user groups.
+-  Validated end-to-end campaign functionality, including email delivery, landing page interaction, and reporting.
+-  Produced documentation suitable for demonstrating practical cybersecurity and security operations experience in a professional portfolio.
