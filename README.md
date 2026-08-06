@@ -28,11 +28,61 @@ This lab was developed exclusively for educational purposes within an authorized
 -  Windows 11:	Operating system hosting the phishing simulation environment.
 -  HTML:	Developed custom phishing email templates and landing pages.
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+### Lab Architecture
+Windows 11 VM
+        │
+        ▼
+    Gophish
+        │
+        ├──────────────┐
+        ▼              ▼
+ Mailpit SMTP     Landing Page
+        │
+        ▼
+ Simulated Users
+        │
+        ▼
+ Campaign Metrics
 
-Every screenshot should have some text explaining what the screenshot is about.
+ 
+## Implementation Steps
 
-Example below.
+1. Built the Lab Environment
+   - Created a dedicated Windows 11 virtual machine using VMware Workstation.
+   - Configured the virtual machine to host all components of the phishing simulation.
 
-*Ref 1: Network Diagram*
+2. Installed Gophish
+    -  Downloaded and installed the latest Gophish release.
+    -  Verified the application was running correctly.
+    -  Accessed the Gophish administrative interface through the web console.
+    
+3. Configured Email Delivery
+    -  Installed Mailpit to function as a local SMTP server.
+    -  Configured a Gophish Sending Profile using Mailpit as the SMTP relay.
+    -  Verified successful email delivery by sending test messages.
+      
+4. Developed Phishing Content
+    -  Designed a custom HTML phishing email template.
+    -  Developed a custom HTML landing page to simulate a credential prompt within the authorized lab environment.
+    -  Configured campaign tracking to monitor user interactions.
+      
+5. Created Simulated Users
+    -  Created a CSV file containing simulated employee accounts.
+    -  Imported the user list into Gophish as a campaign group.
+      
+6. Launched the Phishing Campaign
+   -  Created a phishing campaign using the custom email template, landing page, sending profile, and user group.
+   -  Successfully launched the campaign within the lab environment.
+     
+7. Monitored Campaign Activity
+    -  Verified email delivery through Mailpit.
+    -  Monitored campaign metrics within Gophish, including:
+    -  Email delivery
+    -  Email opens
+    -  Link clicks
+    -  Credential submissions
+    -  Confirmed successful tracking and reporting functionality.
+      
+8. Documented Results
+    -  Recorded configuration steps, screenshots, and campaign results.
+    -  Documented lessons learned and troubleshooting performed throughout the project.
