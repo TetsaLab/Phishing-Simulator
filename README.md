@@ -2,7 +2,9 @@
 
 ## Objective
 
-Developed a cloud-hosted phishing simulation environment using Gophish deployed on Railway to gain hands-on experience with security awareness testing. The project includes creating user groups, configuring phishing email templates, setting up SMTP relay services, designing custom landing pages, launching simulated phishing campaigns, and monitoring campaign metrics such as email delivery and user interactions. This lab was built solely for educational purposes and to demonstrate practical skills in security operations and phishing awareness within an authorized test environment.
+Designed and implemented a cloud-hosted phishing simulation lab to gain hands-on experience with security awareness testing and phishing campaign management in a controlled environment. The project focused on configuring and deploying phishing campaigns using Gophish, creating realistic HTML-based phishing emails and landing pages, configuring an SMTP relay through Mailpit, and tracking campaign metrics such as email delivery, opens, link clicks, and credential submissions.
+
+This lab was developed exclusively for educational purposes within an authorized test environment to demonstrate practical skills relevant to security operations, security awareness programs, and phishing simulation management.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
