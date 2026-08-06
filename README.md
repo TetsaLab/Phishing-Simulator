@@ -29,20 +29,22 @@ This lab was developed exclusively for educational purposes within an authorized
 -  HTML:	Developed custom phishing email templates and landing pages.
 
 ### Lab Architecture
-Windows 11 VM
+
+```text
+Windows 11 VM (VMware)
         │
         ▼
-    Gophish
-        │
-        ├──────────────┐
-        ▼              ▼
- Mailpit SMTP     Landing Page
+     Gophish
         │
         ▼
- Simulated Users
+     Mailpit
         │
         ▼
- Campaign Metrics
+   Simulated Users
+        │
+        ▼
+Campaign Metrics
+```
 
  
 ## Implementation Steps
