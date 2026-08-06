@@ -6,14 +6,19 @@ Designed and implemented a cloud-hosted phishing simulation lab to gain hands-on
 
 This lab was developed exclusively for educational purposes within an authorized test environment to demonstrate practical skills relevant to security operations, security awareness programs, and phishing simulation management.
 
-### Skills Learned
-[Bullet Points - Remove this afterwards]
+### Skills Demonstrated
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+Phishing simulation deployment
+Security awareness campaign management
+HTML email and landing page development
+SMTP configuration and email delivery testing
+Virtual machine deployment and management
+Campaign monitoring and reporting
+Troubleshooting application and network connectivity
+Email infrastructure testing
+Windows administration
+Cybersecurity lab documentation
+Security operations fundamentals
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
