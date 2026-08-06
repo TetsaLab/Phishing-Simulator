@@ -21,11 +21,12 @@ This lab was developed exclusively for educational purposes within an authorized
 *  Security operations fundamentals
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+-  VMware Workstation:	Hosted the Windows 11 virtual machine used as the phishing simulation environment.
+-  Gophish:	Created and managed phishing campaigns, user groups, landing pages, email templates, and campaign reporting.
+-  Mailpit:	Captured and viewed outbound phishing emails locally without requiring real mailboxes.
+-  Windows 11:	Operating system hosting the phishing simulation environment.
+-  HTML:	Developed custom phishing email templates and landing pages.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
