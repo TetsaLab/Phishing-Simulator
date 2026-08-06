@@ -8,17 +8,17 @@ This lab was developed exclusively for educational purposes within an authorized
 
 ### Skills Demonstrated
 
-Phishing simulation deployment
-Security awareness campaign management
-HTML email and landing page development
-SMTP configuration and email delivery testing
-Virtual machine deployment and management
-Campaign monitoring and reporting
-Troubleshooting application and network connectivity
-Email infrastructure testing
-Windows administration
-Cybersecurity lab documentation
-Security operations fundamentals
+*  Phishing simulation deployment
+*  Security awareness campaign management
+*  HTML email and landing page development
+*  SMTP configuration and email delivery testing
+*  Virtual machine deployment and management
+*  Campaign monitoring and reporting
+*  Troubleshooting application and network connectivity
+*  Email infrastructure testing
+*  Windows administration
+*  Cybersecurity lab documentation
+*  Security operations fundamentals
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
