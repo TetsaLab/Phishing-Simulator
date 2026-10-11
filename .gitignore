@@ -1,0 +1,8 @@
+# Do not commit recipient-level campaign logs or credentials
+users_training_local.csv
+Phishing Lab Test - Events.csv
+Phishing Lab Test - Results.csv
+*.db
+gophish.db
+config.json
+.env
