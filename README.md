@@ -142,9 +142,15 @@ Imported the group into Gophish and verified recipients were associated with the
 
 Created the campaign using the prepared recipient group, sending profile, email template, and landing page. The Gophish event export records campaign creation and **30 `Email Sent` events** on **August 5, 2026 (UTC)**.
 
-### 7. Trace simulated recipient behavior
+### 7. Trace Simulated Recipient Behavior
 
-Reviewed Gophish's individual event timelines to confirm that the tracking workflow associated simulated email opens, clicked links, and submitted test data with a campaign recipient.
+To validate the phishing campaign's tracking functionality, I manually interacted with the simulated emails captured in Mailpit, acting as fictional recipients.
+
+I opened selected messages and performed test interactions, including clicking tracked links, submitting fictional data through the training landing page, and testing phishing-reporting behavior.
+
+I then reviewed the individual recipient event timelines in Gophish to verify that these interactions were recorded and associated with the appropriate simulated accounts.
+
+**Testing Method:** All recipient interactions were manually simulated within the controlled lab environment. The resulting campaign metrics reflect deliberate testing of Gophish's tracking capabilities rather than the independent behavior of real employees.
 
 ![Gophish sample recipient event timeline](assets/images/gophish-simulated-submission-timeline.png)
 
