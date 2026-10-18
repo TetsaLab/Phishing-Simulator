@@ -128,7 +128,13 @@ The landing page displayed an explicit security-awareness banner and was hosted 
 
 ### 5. Build a fictional recipient group
 
-Created a CSV containing **30 synthetic recipient accounts** using the reserved lab naming convention `training.local`. The fictional roster represented several departments, including HR, Finance, Engineering, Marketing, Sales, and IT.
+Created a CSV containing 30 fictional recipient
+accounts using the lab-only domain `training.local`.
+
+The recipient list represented several simulated
+departments, including HR, Finance, Engineering,
+Marketing, Sales, and IT.
+
 
 Imported the group into Gophish and verified recipients were associated with the campaign. No external organization, real employee addresses, or production user list was required.
 
